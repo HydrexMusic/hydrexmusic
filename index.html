@@ -341,6 +341,31 @@ function mostrarContacto(servicio){
 
     document.getElementById("contacto-opciones").style.display = "block";
 
+    const whatsapp = document.getElementById("btn-whatsapp");
+    const email = document.getElementById("btn-email");
+
+    if(servicio === "dj-completo"){
+
+        whatsapp.href =
+        "https://wa.me/34622789614?text=Hola%20Hydrex,%20me%20interesa%20un%20presupuesto%20para%20DJ%20+%20sonido%20e%20iluminación.";
+
+        email.href =
+        "mailto:info@hydrexmusic.es?subject=Solicitud%20de%20presupuesto&body=Hola%20Hydrex,%20me%20interesa%20un%20presupuesto%20para%20DJ%20+%20sonido%20e%20iluminación.";
+
+    }
+
+    if(servicio === "solo-dj"){
+
+        whatsapp.href =
+        "https://wa.me/34622789614?text=Hola%20Hydrex,%20me%20interesa%20un%20presupuesto%20para%20solo%20sesión%20DJ.";
+
+        email.href =
+        "mailto:info@hydrexmusic.es?subject=Solicitud%20de%20presupuesto&body=Hola%20Hydrex,%20me%20interesa%20un%20presupuesto%20para%20solo%20sesión%20DJ.";
+
+    }
+
+}
+
 }
 </script>
 </body>
