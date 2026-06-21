@@ -317,6 +317,27 @@ Solicitar presupuesto
 <footer>
     © 2025 Hydrex Music
 </footer>
+<script>
 
+const popup = document.getElementById("popup-presupuesto");
+const abrirPopup = document.getElementById("abrir-popup");
+const cerrarPopup = document.querySelector(".close-popup");
+
+abrirPopup.addEventListener("click", function(e){
+    e.preventDefault();
+    popup.style.display = "flex";
+});
+
+cerrarPopup.addEventListener("click", function(){
+    popup.style.display = "none";
+});
+
+window.addEventListener("click", function(e){
+    if(e.target === popup){
+        popup.style.display = "none";
+    }
+});
+
+</script>
 </body>
 </html>
