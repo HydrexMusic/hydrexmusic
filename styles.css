@@ -211,17 +211,18 @@ text-align:center;
 padding:40px;
 border-top:1px solid #222;
 }
+@media(max-width:900px){
 
-@media(max-width:900px).stats{
+.menu{
+display:none;
+}
+
+.stats{
 grid-template-columns:1fr 1fr;
 }
 
 .stat h3{
 font-size:2rem;
-}{
-
-.menu{
-display:none;
 }
 
 .hero h1{
