@@ -284,4 +284,17 @@ h2{
 font-size:2.5rem;
 }
   
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    margin-top:40px;
 }
+
+.gallery-grid img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    display:block;
+} 
