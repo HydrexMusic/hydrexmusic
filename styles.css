@@ -110,9 +110,8 @@ object-fit:cover;
 
 
 .hero h1{
-font-size:4.2rem;
+font-size:2rem;
 font-weight:800;
-line-height:1.05;
 margin-bottom:20px;
 text-shadow:0 4px 20px rgba(0,0,0,.7);
 }
