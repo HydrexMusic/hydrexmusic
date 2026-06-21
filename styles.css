@@ -101,7 +101,25 @@ transform:translateY(-2px);
 section{
 padding:120px 10%;
 }
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+text-align:center;
+background:#050505;
+}
 
+.stat h3{
+font-size:3rem;
+font-weight:800;
+margin-bottom:10px;
+}
+
+.stat p{
+font-size:.9rem;
+letter-spacing:2px;
+opacity:.8;
+}
 h2{
 font-size:4rem;
 margin-bottom:40px;
@@ -194,7 +212,13 @@ padding:40px;
 border-top:1px solid #222;
 }
 
-@media(max-width:900px){
+@media(max-width:900px).stats{
+grid-template-columns:1fr 1fr;
+}
+
+.stat h3{
+font-size:2rem;
+}{
 
 .menu{
 display:none;
