@@ -176,8 +176,8 @@ font-size:1.5rem;
 display:flex;
 gap:20px;
 overflow-x:auto;
-scroll-snap-type:x mandatory;
-padding-bottom:10px;
+scroll-behavior:smooth;
+padding:10px;
 }
 
 .slider::-webkit-scrollbar{
@@ -186,12 +186,31 @@ display:none;
 
 .slider img{
 flex:none;
-width:70%;
-max-width:350px;
-height:250px;
+width:300px;
+height:220px;
 object-fit:cover;
 border-radius:20px;
-scroll-snap-align:center;
+}
+
+.carousel-container{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.carousel-btn{
+background:#111;
+color:white;
+border:none;
+width:50px;
+height:50px;
+border-radius:50%;
+cursor:pointer;
+font-size:20px;
+}
+
+.carousel-btn:hover{
+background:#222;
 }
 
 .instagram{
