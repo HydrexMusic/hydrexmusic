@@ -241,10 +241,11 @@ height:85vh;
 padding:0 20px;
 }
 
-  .stats{
+.stats{
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:15px;
+padding:40px 20px;
 }
 
 .stat{
