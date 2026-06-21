@@ -287,7 +287,9 @@ Solicitar presupuesto
 
         <h2>Solicitar presupuesto</h2>
 
-        <p>Selecciona el servicio que mejor se adapte a tu evento.</p>
+        <p id="titulo-servicio">
+    Selecciona el servicio que mejor se adapte a tu evento.
+</p>
 
         <div id="seleccion-servicio">
 
@@ -345,6 +347,7 @@ function mostrarContacto(servicio){
 
     document.getElementById("contacto-opciones").style.display = "block";
     document.getElementById("seleccion-servicio").style.display = "none";
+    document.getElementById("titulo-servicio").style.display = "none";
     
     const whatsapp = document.getElementById("btn-whatsapp");
     const email = document.getElementById("btn-email");
