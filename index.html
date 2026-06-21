@@ -6,7 +6,26 @@
 <title>Hydrex Music | DJ para eventos</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+<script>
 
+const popup = document.getElementById("popup-presupuesto");
+
+document.getElementById("abrir-popup").addEventListener("click", function(e){
+    e.preventDefault();
+    popup.style.display = "flex";
+});
+
+document.querySelector(".close-popup").addEventListener("click", function(){
+    popup.style.display = "none";
+});
+
+window.addEventListener("click", function(e){
+    if(e.target === popup){
+        popup.style.display = "none";
+    }
+});
+
+</script>
 <body>
 
 <nav class="navbar">
@@ -38,7 +57,7 @@ Música que se recuerda.
             Bodas · Fiestas Patronales · Empresas · Clubs
         </p>
 
-        <a href="#contact" class="btn">
+        <a href="#" class="btn" id="abrir-popup">
 Solicitar presupuesto
 </a>
 
