@@ -323,23 +323,22 @@ font-size:2.5rem;
 }
 
  #eventos{
-    padding:80px 10%;
+    padding:120px 10%;
 }
 
 .eventos-grid{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:repeat(3,1fr);
     gap:30px;
-    margin-top:50px;
 }
-  @media (max-width:900px){
+
+@media(max-width:900px){
 
     .eventos-grid{
         grid-template-columns:1fr;
     }
 
 }
-
 .evento-card{
     background:#111;
     border:1px solid #222;
