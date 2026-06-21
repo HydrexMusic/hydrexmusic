@@ -298,7 +298,9 @@ font-size:2.5rem;
     border-radius:20px;
     display:block;
 }
-  .testimonials{
+ 
+}
+ .testimonials{
     margin-top:80px;
     text-align:center;
 }
@@ -319,13 +321,14 @@ font-size:2.5rem;
 .testimonial span{
     color:#aaa;
 }
+
  #eventos{
     padding:80px 10%;
 }
 
 .eventos-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:1fr 1fr 1fr;
     gap:30px;
     margin-top:50px;
 }
