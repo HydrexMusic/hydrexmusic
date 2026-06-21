@@ -279,7 +279,41 @@ Solicitar presupuesto
 <a class="whatsapp" href="https://wa.me/34622789614">
     💬
 </a>
+<div id="popup-presupuesto" class="popup">
 
+    <div class="popup-box">
+
+        <span class="close-popup">&times;</span>
+
+        <h2>Solicitar presupuesto</h2>
+
+        <p>¿Qué necesitas?</p>
+
+        <button class="popup-btn" onclick="mostrarContacto('dj-completo')">
+            DJ + sonido e iluminación
+        </button>
+
+        <button class="popup-btn" onclick="mostrarContacto('solo-dj')">
+            Solo sesión DJ
+        </button>
+
+        <div id="contacto-opciones" style="display:none;">
+
+            <p>¿Cómo prefieres contactar?</p>
+
+            <a id="btn-whatsapp" class="popup-btn">
+                WhatsApp
+            </a>
+
+            <a id="btn-email" class="popup-btn">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 <footer>
     © 2025 Hydrex Music
 </footer>
