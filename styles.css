@@ -186,10 +186,11 @@ display:none;
 
 .slider img{
 flex:none;
-width:85%;
-height:500px;
+width:70%;
+max-width:350px;
+height:250px;
 object-fit:cover;
-border-radius:25px;
+border-radius:20px;
 scroll-snap-align:center;
 }
 
@@ -290,8 +291,10 @@ font-size:2.5rem;
 }
 
 .slider img{
-width:90%;
-height:400px;
+width:80%;
+max-width:280px;
+height:200px;
+}
 }
   
 }
