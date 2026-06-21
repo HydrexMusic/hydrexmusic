@@ -172,17 +172,25 @@ margin-bottom:10px;
 font-size:1.5rem;
 }
 
-.gallery-grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:15px;
+.slider{
+display:flex;
+gap:20px;
+overflow-x:auto;
+scroll-snap-type:x mandatory;
+padding-bottom:10px;
 }
 
-.gallery-grid img{
-width:100%;
-height:350px;
+.slider::-webkit-scrollbar{
+display:none;
+}
+
+.slider img{
+flex:none;
+width:85%;
+height:500px;
 object-fit:cover;
-border-radius:15px;
+border-radius:25px;
+scroll-snap-align:center;
 }
 
 .instagram{
@@ -281,12 +289,9 @@ h2{
 font-size:2.5rem;
 }
 
-.gallery-grid{
-grid-template-columns:1fr;
+.slider img{
+width:90%;
+height:400px;
 }
-
-.gallery-grid img{
-height:300px;
-}
-
+  
 }
