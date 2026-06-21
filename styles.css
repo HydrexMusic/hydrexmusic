@@ -319,3 +319,40 @@ font-size:2.5rem;
 .testimonial span{
     color:#aaa;
 }
+  #eventos{
+    padding:80px 10%;
+}
+
+.eventos-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.evento-card{
+    background:#111;
+    border:1px solid #222;
+    border-radius:20px;
+    padding:30px;
+    transition:.3s;
+}
+
+.evento-card:hover{
+    transform:translateY(-5px);
+    border-color:#444;
+}
+
+.evento-card h3{
+    margin-bottom:20px;
+}
+
+.evento-card ul{
+    list-style:none;
+    padding:0;
+}
+
+.evento-card li{
+    margin-bottom:10px;
+    color:#ccc;
+}
