@@ -100,7 +100,7 @@ transform:translateY(-2px);
 }
 
 section{
-padding:120px 10%;
+    padding:80px 10%;
 }
 .stats{
 display:grid;
@@ -130,8 +130,8 @@ letter-spacing:2px;
 opacity:.8;
 }
 h2{
-font-size:4rem;
-margin-bottom:40px;
+    font-size:4rem;
+    margin-bottom:25px;
 }
 
 .about{
