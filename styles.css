@@ -124,6 +124,12 @@ font-size:1.4rem;
 margin-bottom:35px;
 }
 
+.seo-subtitle{
+    font-size:1rem;
+    opacity:.9;
+    max-width:800px;
+    margin:0 auto 35px;
+}
 .btn{
 display:inline-block;
 padding:16px 34px;
@@ -265,6 +271,10 @@ border-top:1px solid #222;
 }
 @media(max-width:900px){
 
+.seo-subtitle{
+    font-size:.95rem;
+}
+    
 .navbar{
 padding:15px 20px;
 }
