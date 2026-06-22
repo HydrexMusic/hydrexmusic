@@ -152,17 +152,18 @@ background:#000;
 
 .stat{
 background:#111;
-padding:30px;
 border-radius:20px;
 border:1px solid rgba(255,255,255,.08);
+
+height:260px;
 
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 
-min-height:280px;
 text-align:center;
+padding:0;
 }
 
 .stat h3{
