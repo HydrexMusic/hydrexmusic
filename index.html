@@ -411,6 +411,18 @@ function mostrarContacto(servicio){
     }
 
 }
+    
+document.addEventListener("DOMContentLoaded", function () {
+
+    const video = document.querySelector(".hero-video");
+
+    if(video){
+        video.play().catch(function(error){
+            console.log("Autoplay bloqueado:", error);
+        });
+    }
+
+});
 </script>
 </body>
 </html>
