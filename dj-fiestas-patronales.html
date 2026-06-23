@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DJ para Fiestas Patronales | Hydrex Music</title>
+
+<meta name="description" content="DJ profesional para fiestas patronales, verbenas y eventos multitudinarios. Más de 12 años de experiencia actuando en plazas, recintos festivos y celebraciones populares.">
+
+<link rel="stylesheet" href="styles.css?v=100">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a href="index.html">
+        <img src="hydrex new logoW.png" alt="Hydrex Music">
+    </a>
+</nav>
+
+<section class="seo-page">
+
+<div class="fiestas-hero-image">
+
+```
+<img src="foto-patronales.jpeg" alt="DJ para fiestas patronales">
+```
+
+</div>
+
+<div class="seo-intro">
+
+```
+<h1>DJ para Fiestas Patronales</h1>
+
+<p>
+Soy DJ profesional especializado en fiestas patronales, verbenas y eventos multitudinarios.
+</p>
+
+<p>
+Durante más de 12 años he actuado en plazas, recintos festivos y celebraciones populares de diferentes localidades, adaptando cada sesión al público y al ambiente de cada evento.
+</p>
+
+<p>
+Mi objetivo es mantener la energía de la fiesta desde el primer tema hasta el último, creando sesiones dinámicas, participativas y pensadas para todo tipo de públicos.
+</p>
+
+<h2>¿Qué incluye el servicio?</h2>
+
+<ul>
+    <li>Sesión DJ profesional.</li>
+    <li>Adaptación musical al público asistente.</li>
+    <li>Experiencia en eventos multitudinarios.</li>
+    <li>Posibilidad de sonido e iluminación en recintos pequeños o medianos.</li>
+</ul>
+```
+
+</div>
+
+<div class="seo-cards">
+
+```
+<div class="seo-card">
+    <h3>Cómo trabajo</h3>
+
+    <p>1. Analizo el tipo de público.</p>
+    <p>2. Diseño una sesión adaptada al evento.</p>
+    <p>3. Coordino horarios y necesidades técnicas.</p>
+    <p>4. Realizo la actuación en directo.</p>
+    <p>5. Mantengo la energía durante toda la fiesta.</p>
+</div>
+
+<div class="seo-card">
+    <h3>Tipos de eventos</h3>
+
+    <p>✓ Fiestas patronales</p>
+    <p>✓ Verbenas populares</p>
+    <p>✓ Eventos municipales</p>
+    <p>✓ Celebraciones multitudinarias</p>
+</div>
+
+<<div class="seo-card">
+
+    <h3>Preguntas frecuentes</h3>
+
+    <p><strong>¿Trabajas fuera de Vitoria?</strong></p>
+    <p>Sí, realizo eventos en todo el País Vasco y Norte de España.</p>
+
+    <p><strong>¿La música se adapta al público?</strong></p>
+    <p>Sí, cada sesión evoluciona según el ambiente de la fiesta.</p>
+
+    <p><strong>¿Cuántas horas dura la sesión?</strong></p>
+    <p>La duración se adapta a la programación de cada evento.</p>
+
+</div>
+```
+
+</div>
+
+<div class="seo-cta">
+
+```
+<h2>Solicita presupuesto</h2>
+
+<p>
+Si estás organizando unas fiestas patronales, una verbena o un evento popular, estaré encantado de ayudarte.
+</p>
+
+<a href="#" class="btn" id="abrir-popup-patronales">
+    Solicitar presupuesto
+</a>
+```
+
+</div>
+
+</section>
+
+<div id="popup-patronales" class="popup">
+
+```
+<div class="popup-box">
+
+    <span class="close-popup-patronales">&times;</span>
+
+    <h2>Solicitar presupuesto para fiestas patronales</h2>
+
+    <p>Elige tu método de contacto preferido.</p>
+
+    <a
+    href="https://wa.me/34622789614?text=Hola%20Hydrex,%0A%0AEstoy%20organizando%20unas%20fiestas%20patronales%20y%20me%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0AFecha:%0ALocalidad:%0ANúmero%20aproximado%20de%20asistentes:%0A%0AMuchas%20gracias."
+    class="popup-btn">
+    WhatsApp
+    </a>
+
+    <a
+    href="mailto:info@hydrexmusic.es?subject=Presupuesto%20Fiestas%20Patronales&body=Hola%20Hydrex,%0A%0AEstoy%20organizando%20unas%20fiestas%20patronales%20y%20me%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0AFecha:%0ALocalidad:%0ANúmero%20aproximado%20de%20asistentes:%0A%0AMuchas%20gracias."
+    class="popup-btn">
+    Email
+    </a>
+
+</div>
+```
+
+</div>
+
+<footer>
+    © 2025 Hydrex Music
+</footer>
+
+<script>
+
+const popupPatronales = document.getElementById("popup-patronales");
+const abrirPopupPatronales = document.getElementById("abrir-popup-patronales");
+const cerrarPopupPatronales = document.querySelector(".close-popup-patronales");
+
+abrirPopupPatronales.addEventListener("click", function(e){
+    e.preventDefault();
+    popupPatronales.style.display = "flex";
+});
+
+cerrarPopupPatronales.addEventListener("click", function(){
+    popupPatronales.style.display = "none";
+});
+
+window.addEventListener("click", function(e){
+    if(e.target === popupPatronales){
+        popupPatronales.style.display = "none";
+    }
+});
+
+</script>
+
+</body>
+</html>
