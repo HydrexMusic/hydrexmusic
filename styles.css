@@ -638,3 +638,17 @@ font-size:2.5rem;
     }
 
 }
+
+.seo-intro h2:last-of-type{
+    text-align:center;
+    margin-top:50px;
+}
+
+.seo-intro h2:last-of-type + p{
+    text-align:center;
+}
+
+.seo-intro h2:last-of-type + p + .btn{
+    display:table;
+    margin:30px auto 0 auto;
+}
