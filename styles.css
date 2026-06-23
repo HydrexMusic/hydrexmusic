@@ -571,3 +571,34 @@ font-size:2.5rem;
 .seo-page{
     padding-top:160px;
 }
+
+.seo-page{
+    max-width:1400px;
+    margin:0 auto;
+    padding-top:140px;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.seo-hero{
+    display:grid;
+    grid-template-columns:500px 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.seo-image img{
+    width:100%;
+    border-radius:20px;
+    display:block;
+}
+
+.seo-intro h1{
+    font-size:3.5rem;
+    margin-bottom:25px;
+}
+
+.seo-intro p{
+    font-size:1.15rem;
+    margin-bottom:20px;
+}
