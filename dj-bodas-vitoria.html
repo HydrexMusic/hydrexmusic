@@ -86,7 +86,7 @@
     </div>
 
     <div class="seo-card">
-        <h3>¿Por qué elegir a Hydrex Music?</h3>
+        <h3>Preguntas frecuentes</h3>
 
         <p><strong>¿Puedo elegir la música?</strong></p>
         <p>Sí, totalmente personalizada.</p>
@@ -105,18 +105,66 @@
         Si estás organizando tu boda en Vitoria-Gasteiz o cualquier punto del País Vasco, estaré encantado de ayudarte.
     </p>
 
-    <a href="https://wa.me/34622789614" class="btn">
-        Solicitar presupuesto
-    </a>
+    <a href="#" class="btn" id="abrir-popup-boda">
+Solicitar presupuesto
+</a>
 
 </div>
     
 </section>
+    
+<div id="popup-boda" class="popup">
 
+    <div class="popup-box">
+
+        <span class="close-popup-boda">&times;</span>
+
+        <h2>Solicitar presupuesto para boda</h2>
+
+        <p>Elige tu método de contacto preferido.</p>
+
+        <a
+        href="https://wa.me/34622789614?text=Hola%20Hydrex,%0A%0AEstoy%20organizando%20una%20boda%20y%20me%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0AFecha:%0ALugar:%0ANúmero%20aproximado%20de%20invitados:%0A%0AMuchas%20gracias."
+        class="popup-btn">
+        WhatsApp
+        </a>
+
+        <a
+        href="mailto:info@hydrexmusic.es?subject=Presupuesto%20Boda&body=Hola%20Hydrex,%0A%0AEstoy%20organizando%20una%20boda%20y%20me%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0AFecha:%0ALugar:%0ANúmero%20aproximado%20de%20invitados:%0A%0AMuchas%20gracias."
+        class="popup-btn">
+        Email
+        </a>
+
+    </div>
+
+</div>
 <footer>
     © 2025 Hydrex Music
 </footer>
 
+    <script>
+
+const popupBoda = document.getElementById("popup-boda");
+const abrirPopupBoda = document.getElementById("abrir-popup-boda");
+const cerrarPopupBoda = document.querySelector(".close-popup-boda");
+
+abrirPopupBoda.addEventListener("click", function(e){
+    e.preventDefault();
+    popupBoda.style.display = "flex";
+});
+
+cerrarPopupBoda.addEventListener("click", function(){
+    popupBoda.style.display = "none";
+});
+
+window.addEventListener("click", function(e){
+    if(e.target === popupBoda){
+        popupBoda.style.display = "none";
+    }
+});
+
+</script>
+    
 </body>
 
 </html>
