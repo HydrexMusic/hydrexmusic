@@ -602,3 +602,39 @@ font-size:2.5rem;
     font-size:1.15rem;
     margin-bottom:20px;
 }
+
+.seo-page{
+    padding-top:160px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:80px;
+}
+
+.seo-hero{
+    display:grid;
+    grid-template-columns:500px 1fr;
+    gap:60px;
+    align-items:start;
+}
+
+.seo-image img{
+    width:100%;
+    border-radius:20px;
+    display:block;
+}
+
+.seo-intro h1{
+    margin-bottom:30px;
+}
+
+.seo-intro p{
+    margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+    .seo-hero{
+        grid-template-columns:1fr;
+    }
+
+}
