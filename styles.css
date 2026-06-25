@@ -127,16 +127,20 @@ margin-bottom:35px;
 .btn{
 display:inline-block;
 padding:16px 34px;
+
 background:white;
 color:black;
+
 border-radius:999px;
+
 text-decoration:none;
 font-weight:700;
 
-position:relative;
-overflow:hidden;
+border:2px solid white;
 
 transition:all .35s ease;
+
+cursor:pointer;
 }
 
 .btn::before{
@@ -167,10 +171,26 @@ transition:.8s;
 
 .btn:hover{
 
-transform:translateY(-4px);
+background:#FE5F2F;
+
+border-color:#FE5F2F;
+
+color:white;
+
+transform:
+translateY(-4px)
+scale(1.03);
 
 box-shadow:
-0 15px 35px rgba(254,95,47,.20);
+0 15px 40px rgba(254,95,47,.35);
+
+}
+
+.btn:active{
+
+transform:
+translateY(-1px)
+scale(.99);
 
 }
 
