@@ -232,34 +232,39 @@ overflow:hidden;
 
 transform:translateY(-8px);
 
-border-color:rgba(255,255,255,.35);
+border-color:rgba(254,95,47,.55);
 
 box-shadow:
 0 20px 45px rgba(0,0,0,.45),
-0 0 35px rgba(255,255,255,.08);
+0 0 35px rgba(254,95,47,.20);
 
 }
 
 .service-card::before{
-content:"";
-position:absolute;
-top:0;
-left:-120%;
-width:60%;
-height:100%;
-background:linear-gradient(
-90deg,
-transparent,
-rgba(255,255,255,.10),
-transparent
-);
+    content:"";
+    position:absolute;
+    top:0;
+    left:-130%;
+    width:45%;
+    height:100%;
 
-transition:.7s;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(254,95,47,0.08),
+        rgba(254,95,47,0.28),
+        rgba(254,95,47,0.08),
+        transparent
+    );
+
+    transform:skewX(-25deg);
+    transition:.8s;
 }
 
 .service-card:hover::before{
-left:150%;
+left:170%;
 }
+
 .service-card-link:hover{
 cursor:pointer;
 }
