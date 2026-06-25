@@ -218,8 +218,26 @@ border-radius:20px;
 transition:.3s;
 }
 
+.service-card{
+background:#111;
+padding:35px;
+border-radius:20px;
+transition:all .35s ease;
+border:1px solid rgba(255,255,255,.08);
+position:relative;
+overflow:hidden;
+}
+
 .service-card:hover{
-transform:translateY(-5px);
+
+transform:translateY(-8px);
+
+border-color:rgba(255,255,255,.35);
+
+box-shadow:
+0 20px 45px rgba(0,0,0,.45),
+0 0 35px rgba(255,255,255,.08);
+
 }
 
 .service-card h3{
