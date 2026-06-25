@@ -115,3 +115,62 @@ Con más de 12 años de experiencia en eventos de todo tipo, trabajo para que ca
     </a>
 
 </div>
+
+    </section>
+
+<div id="popup-empresas" class="popup">
+
+    <div class="popup-box">
+
+        <span class="close-popup-empresas">&times;</span>
+
+        <h2>Solicitar presupuesto para empresa</h2>
+
+        <p>Elige tu método de contacto preferido.</p>
+
+        <a
+        href="https://wa.me/34622789614?text=Hola%20Hydrex,%0A%0AEstamos%20organizando%20un%20evento%20de%20empresa%20y%20nos%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0ATipo%20de%20evento:%0AFecha:%0ALugar:%0ANúmero%20aproximado%20de%20asistentes:%0A%0AMuchas%20gracias."
+        class="popup-btn">
+        WhatsApp
+        </a>
+
+        <a
+        href="mailto:info@hydrexmusic.es?subject=Presupuesto%20Evento%20de%20Empresa&body=Hola%20Hydrex,%0A%0AEstamos%20organizando%20un%20evento%20de%20empresa%20y%20nos%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0ATipo%20de%20evento:%0AFecha:%0ALugar:%0ANúmero%20aproximado%20de%20asistentes:%0A%0AMuchas%20gracias."
+        class="popup-btn">
+        Email
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Hydrex Music
+</footer>
+
+<script>
+
+const popupEmpresas = document.getElementById("popup-empresas");
+const abrirPopupEmpresas = document.getElementById("abrir-popup-empresas");
+const cerrarPopupEmpresas = document.querySelector(".close-popup-empresas");
+
+abrirPopupEmpresas.addEventListener("click", function(e){
+    e.preventDefault();
+    popupEmpresas.style.display = "flex";
+});
+
+cerrarPopupEmpresas.addEventListener("click", function(){
+    popupEmpresas.style.display = "none";
+});
+
+window.addEventListener("click", function(e){
+    if(e.target === popupEmpresas){
+        popupEmpresas.style.display = "none";
+    }
+});
+
+</script>
+
+</body>
+</html>
+
