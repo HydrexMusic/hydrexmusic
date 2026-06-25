@@ -141,6 +141,9 @@ border:2px solid white;
 transition:all .35s ease;
 
 cursor:pointer;
+
+position:relative;
+overflow:hidden;
 }
 
 .btn::before{
@@ -148,24 +151,28 @@ cursor:pointer;
 content:"";
 position:absolute;
 
-top:-40%;
-left:-140%;
+top:0;
+left:-35%;
 
-width:45%;
-height:180%;
+width:22%;
+height:100%;
 
 background:linear-gradient(
 90deg,
 transparent,
-rgba(254,95,47,.12),
-rgba(254,95,47,.40),
-rgba(254,95,47,.12),
+rgba(255,255,255,.18),
+rgba(255,255,255,.45),
+rgba(255,255,255,.18),
 transparent
 );
 
-transform:rotate(20deg);
+transform:skewX(-25deg);
 
-transition:.8s;
+opacity:0;
+
+transition:
+left .55s ease,
+opacity .2s ease;
 
 }
 
@@ -186,17 +193,18 @@ box-shadow:
 
 }
 
+.btn:hover::before{
+
+left:115%;
+opacity:1;
+
+}
+
 .btn:active{
 
 transform:
 translateY(-1px)
 scale(.99);
-
-}
-
-.btn:hover::before{
-
-left:170%;
 
 }
 
