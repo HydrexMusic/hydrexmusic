@@ -945,3 +945,21 @@ color:#FE5F2F;
     }
 
 }
+
+@media (max-width:900px){
+
+.empresa-hero-image picture{
+
+display:block;
+
+}
+
+.empresa-hero-image picture img{
+
+height:auto;
+
+object-fit:unset;
+
+}
+
+}
