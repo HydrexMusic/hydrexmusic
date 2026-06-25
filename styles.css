@@ -945,28 +945,3 @@ color:#FE5F2F;
     }
 
 }
-
-@media (max-width:900px){
-
-    .empresa-hero-image{
-
-    max-width:340px;
-
-    margin:0 auto 40px auto;
-
-}
-
-.empresa-hero-image img{
-
-    content:url("banner-empresas-mobile.jpg");
-
-    width:100%;
-
-    height:auto;
-
-    border-radius:24px;
-
-    display:block;
-
-}
-}
