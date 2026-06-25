@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DJ para Eventos Privados | Hydrex Music</title>
+
+<meta name="description" content="DJ profesional para cumpleaños, aniversarios, fiestas privadas y celebraciones. Música personalizada, sonido profesional e iluminación para todo tipo de eventos.">
+
+<link rel="stylesheet" href="styles.css?v=100">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a href="index.html">
+        <img src="hydrex new logoW.png" alt="Hydrex Music">
+    </a>
+</nav>
+
+<section class="seo-page">
+
+<div class="empresa-hero-image">
+
+    <img src="banner-eventos.jpg" alt="DJ para eventos privados">
+
+</div>
+
+<div class="seo-intro">
+
+<h1>DJ para Eventos Privados</h1>
+
+<p>
+Hydrex Music ofrece un servicio profesional de DJ para cumpleaños, aniversarios, fiestas privadas, celebraciones familiares y todo tipo de eventos sociales.
+</p>
+
+<p>
+Cada celebración es diferente. Por eso preparo una sesión completamente personalizada según el tipo de público, la edad de los asistentes y el ambiente que se quiere conseguir durante la fiesta.
+</p>
+
+<p>
+Con más de 12 años de experiencia y cientos de eventos realizados, mi objetivo es que los invitados disfruten de una experiencia musical dinámica, elegante y adaptada a cada momento.
+</p>
+
+<h2>¿Qué incluye el servicio?</h2>
+
+<ul>
+
+<li>DJ profesional.</li>
+
+<li>Música totalmente personalizada.</li>
+
+<li>Equipo de sonido profesional.</li>
+
+<li>Iluminación para pista de baile.</li>
+
+<li>Asesoramiento previo al evento.</li>
+
+</ul>
+
+</div>
+
+<div class="seo-cards">
+
+<div class="seo-card">
+
+<h3>Cómo trabajo</h3>
+
+<p>1. Conozco el tipo de celebración.</p>
+
+<p>2. Preparo una selección musical personalizada.</p>
+
+<p>3. Coordino horarios y necesidades del evento.</p>
+
+<p>4. Instalo el equipo antes del comienzo.</p>
+
+<p>5. Adapto la sesión en directo según el ambiente.</p>
+
+</div>
+
+<div class="seo-card">
+
+<h3>Tipos de eventos</h3>
+
+<p>✓ Cumpleaños</p>
+
+<p>✓ Aniversarios</p>
+
+<p>✓ Fiestas privadas</p>
+
+<p>✓ Celebraciones familiares</p>
+
+<p>✓ Eventos sociales</p>
+
+</div>
+
+<div class="seo-card">
+
+<h3>Preguntas frecuentes</h3>
+
+<p><strong>¿Puedo elegir la música?</strong></p>
+
+<p>Sí, la sesión se prepara según vuestros gustos musicales.</p>
+
+<p><strong>¿Incluye sonido e iluminación?</strong></p>
+
+<p>Sí, dispongo de equipo profesional para adaptarme a cada evento.</p>
+
+<p><strong>¿Trabajas fuera de Vitoria?</strong></p>
+
+<p>Sí, realizo eventos en todo el País Vasco y Norte de España.</p>
+
+</div>
+
+</div>
+
+<div class="seo-cta">
+
+<h2>Solicita presupuesto</h2>
+
+<p>
+
+Si estás organizando una fiesta privada o una celebración especial, estaré encantado de ayudarte a crear una experiencia musical inolvidable.
+
+</p>
+
+<a href="#" class="btn" id="abrir-popup-eventos">
+
+Solicitar presupuesto
+
+</a>
+
+</div>
+
+</section>
+
+<div id="popup-eventos" class="popup">
+
+<div class="popup-box">
+
+<span class="close-popup-eventos">&times;</span>
+
+<h2>Solicitar presupuesto para evento privado</h2>
+
+<p>Elige tu método de contacto preferido.</p>
+
+<a
+href="https://wa.me/34622789614?text=Hola%20Hydrex,%0A%0AEstoy%20organizando%20un%20evento%20privado%20y%20me%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0ATipo%20de%20evento:%0AFecha:%0ALugar:%0ANúmero%20aproximado%20de%20invitados:%0A%0AMuchas%20gracias."
+class="popup-btn">
+WhatsApp
+</a>
+
+<a
+href="mailto:info@hydrexmusic.es?subject=Presupuesto%20Evento%20Privado&body=Hola%20Hydrex,%0A%0AEstoy%20organizando%20un%20evento%20privado%20y%20me%20gustaría%20solicitar%20información%20y%20presupuesto.%0A%0ATipo%20de%20evento:%0AFecha:%0ALugar:%0ANúmero%20aproximado%20de%20invitados:%0A%0AMuchas%20gracias."
+class="popup-btn">
+Email
+</a>
+
+</div>
+
+</div>
+
+<footer>
+© 2025 Hydrex Music
+</footer>
+
+<script>
+
+const popupEventos = document.getElementById("popup-eventos");
+const abrirPopupEventos = document.getElementById("abrir-popup-eventos");
+const cerrarPopupEventos = document.querySelector(".close-popup-eventos");
+
+abrirPopupEventos.addEventListener("click", function(e){
+e.preventDefault();
+popupEventos.style.display = "flex";
+});
+
+cerrarPopupEventos.addEventListener("click", function(){
+popupEventos.style.display = "none";
+});
+
+window.addEventListener("click", function(e){
+if(e.target === popupEventos){
+popupEventos.style.display = "none";
+}
+});
+
+</script>
+
+</body>
+
+</html>
