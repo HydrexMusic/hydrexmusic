@@ -52,6 +52,28 @@ transition:color .3s ease;
 
 }
 
+.menu a::after{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+bottom:0;
+
+width:0;
+
+height:2px;
+
+background:#FE5F2F;
+
+transition:all .3s ease;
+
+transform:translateX(-50%);
+
+}
+
 .hero{
 height:100vh;
 position:relative;
