@@ -1109,7 +1109,43 @@ transform:translateY(0);
         0 18px 45px rgba(254,95,47,.18);
 
 }
+.review-top{
 
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:24px;
+
+}
+
+.review-top img{
+
+    width:22px;
+
+    height:22px;
+
+    object-fit:contain;
+
+    display:block;
+
+    flex-shrink:0;
+
+}
+
+.review-stars{
+
+    color:#FFD43B;
+
+    font-size:1.15rem;
+
+    letter-spacing:3px;
+
+    margin-bottom:0;
+
+}
 .review-stars{
 
     color:#FFD43B;
