@@ -74,6 +74,12 @@ transform:translateX(-50%);
 
 }
 
+.menu a:hover::after{
+
+    width:100%;
+
+}
+
 .hero{
 height:100vh;
 position:relative;
