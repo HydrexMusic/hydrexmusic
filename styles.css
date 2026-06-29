@@ -1101,8 +1101,6 @@ transform:translateY(0);
 
 .review-card:hover{
 
-    transform:translateY(-6px);
-
     border-color:rgba(254,95,47,.45);
 
     box-shadow:
