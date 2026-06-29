@@ -638,6 +638,14 @@ font-size:2.5rem;
     cursor:pointer;
 }
 
+.reel-card:hover .play{
+
+    transform:translate(-50%,-50%) scale(1.08);
+
+    background:#FE5F2F;
+
+}
+
 .reel-card h3{
     margin-top:15px;
     text-align:center;
