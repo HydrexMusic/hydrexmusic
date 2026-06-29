@@ -633,6 +633,9 @@ font-size:2.5rem;
     display:flex;
     align-items:center;
     justify-content:center;
+
+    transition:all .30s ease;
+    cursor:pointer;
 }
 
 .reel-card h3{
