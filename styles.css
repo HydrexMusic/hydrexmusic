@@ -37,9 +37,19 @@ gap:25px;
 }
 
 .menu a{
+
+position:relative;
+
 color:white;
+
 text-decoration:none;
+
 font-weight:600;
+
+padding-bottom:6px;
+
+transition:color .3s ease;
+
 }
 
 .hero{
