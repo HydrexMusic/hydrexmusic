@@ -1074,13 +1074,13 @@ transform:translateY(0);
 
 .reviews-carousel{
 
-    width:100%;
+    overflow-x:auto;
 
-    overflow:hidden;
+    scroll-snap-type:x mandatory;
 
-    position:relative;
+    -webkit-overflow-scrolling:touch;
 
-    padding:14px 0 18px;
+    padding:14px 24px 18px;
 
 }
 
@@ -1299,8 +1299,30 @@ box-shadow:
    MÓVIL
 ========================= */
 
+.reviews-hint{
+
+    display:none;
+
+    font-size:.9rem;
+
+    color:#888;
+
+    margin:12px 0 18px;
+
+    text-align:center;
+
+    letter-spacing:.5px;
+
+}
+
 @media (max-width:1023px){
-   
+    
+    .review-card{
+
+    width:300px;
+
+    }
+ 
     .reviews-hint{
 
     display:block;
@@ -1339,18 +1361,3 @@ box-shadow:
 
 }
 
-.reviews-hint{
-
-    display:none;
-
-    font-size:.9rem;
-
-    color:#888;
-
-    margin:12px 0 18px;
-
-    text-align:center;
-
-    letter-spacing:.5px;
-
-}
