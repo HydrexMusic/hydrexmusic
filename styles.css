@@ -1648,3 +1648,11 @@ box-shadow:
     flex-wrap:wrap;
 
 }
+
+.service-card{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
