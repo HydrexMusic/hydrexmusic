@@ -1070,7 +1070,6 @@ transform:translateY(0);
 
     width:max-content;
 
-    animation:reviewsScroll 90s linear infinite;
 }
 
 .review-card{
