@@ -1360,14 +1360,13 @@ box-shadow:
     }
 
 }
+/*=================================
+    CLUB JOURNEY
+=================================*/
 
-/* ===========================
-   CLUB MOMENTS
-=========================== */
+.club-journey{
 
-.club-moments{
-
-    padding:100px 10%;
+    padding:110px 10%;
 
 }
 
@@ -1375,7 +1374,7 @@ box-shadow:
 
     max-width:850px;
 
-    margin:0 auto 70px;
+    margin:0 auto 90px;
 
     text-align:center;
 
@@ -1383,55 +1382,60 @@ box-shadow:
 
 .club-title p{
 
-    margin-top:18px;
+    margin-top:20px;
 
     color:#bdbdbd;
 
-    font-size:1.1rem;
-
     line-height:1.8;
+
+    font-size:1.08rem;
 
 }
 
-.club-moments-grid{
+/* línea */
+
+.journey-line{
 
     display:grid;
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:30px;
-
-}
-
-.club-card{
+    gap:40px;
 
     position:relative;
 
-    padding:42px;
+}
 
-    border-radius:24px;
+.journey-line::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:58px;
+
+    left:8%;
+
+    right:8%;
+
+    height:2px;
 
     background:linear-gradient(
-        180deg,
-        rgba(28,28,28,.95),
-        rgba(14,14,14,.98)
+        90deg,
+        rgba(254,95,47,.15),
+        rgba(254,95,47,.8),
+        rgba(254,95,47,.15)
     );
-
-    border:1px solid rgba(255,255,255,.08);
-
-    transition:.35s ease;
-
-    overflow:hidden;
 
 }
 
-.club-card:hover{
+.journey-step{
 
-    transform:translateY(-8px);
+    position:relative;
 
-    border-color:rgba(254,95,47,.45);
+    text-align:center;
 
-    box-shadow:0 20px 45px rgba(254,95,47,.12);
+    padding-top:20px;
 
 }
 
@@ -1439,9 +1443,7 @@ box-shadow:
 
     display:inline-block;
 
-    padding:8px 16px;
-
-    margin-bottom:24px;
+    padding:8px 18px;
 
     border-radius:999px;
 
@@ -1457,13 +1459,23 @@ box-shadow:
 
     letter-spacing:2px;
 
+    margin-bottom:28px;
+
 }
 
-.club-card h3{
+.journey-dot{
 
-    font-size:1.8rem;
+    width:18px;
 
-    margin-bottom:22px;
+    height:18px;
+
+    border-radius:50%;
+
+    background:#FE5F2F;
+
+    margin:0 auto 30px;
+
+    box-shadow:0 0 20px rgba(254,95,47,.45);
 
     position:relative;
 
@@ -1471,23 +1483,35 @@ box-shadow:
 
 }
 
-.club-card p{
+.journey-step h3{
 
-    color:#d8d8d8;
+    font-size:1.65rem;
 
-    line-height:1.85;
+    margin-bottom:18px;
 
-    position:relative;
+}
 
-    z-index:2;
+.journey-step p{
+
+    color:#d5d5d5;
+
+    line-height:1.8;
 
 }
 
 @media(max-width:900px){
 
-    .club-moments-grid{
+    .journey-line{
 
         grid-template-columns:1fr;
+
+        gap:70px;
+
+    }
+
+    .journey-line::before{
+
+        display:none;
 
     }
 
