@@ -1261,24 +1261,3 @@ box-shadow:
 
 }
 
-@keyframes reviewsScroll{
-
-    from{
-
-        transform:translateX(0);
-
-    }
-
-    to{
-
-        transform:translateX(-50%);
-
-    }
-
-}
-
-.reviews-carousel:hover .reviews-track{
-
-    animation-play-state:paused;
-
-}
