@@ -1300,7 +1300,13 @@ box-shadow:
 ========================= */
 
 @media (max-width:1023px){
+   
+    .reviews-hint{
 
+    display:block;
+
+    }
+ 
     .reviews-track{
 
         animation:none;
@@ -1330,5 +1336,21 @@ box-shadow:
         display:none;
 
     }
+
+}
+
+.reviews-hint{
+
+    display:none;
+
+    font-size:.9rem;
+
+    color:#888;
+
+    margin:12px 0 18px;
+
+    text-align:center;
+
+    letter-spacing:.5px;
 
 }
