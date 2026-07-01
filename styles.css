@@ -1076,7 +1076,7 @@ transform:translateY(0);
 
     width:100%;
 
-    overflow:visible;
+    overflow:hidden;
 
     position:relative;
 
@@ -1086,7 +1086,9 @@ transform:translateY(0);
 
     display:flex;
 
-    gap:28px;
+    gap:24px;
+
+    align-items:stretch;
 
     width:max-content;
 
