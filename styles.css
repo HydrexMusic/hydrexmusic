@@ -1092,6 +1092,10 @@ transform:translateY(0);
 
     width:max-content;
 
+    animation:reviewsScroll 90s linear infinite;
+
+    will-change:transform;
+
 }
 
 .review-link{
@@ -1263,3 +1267,66 @@ box-shadow:
 
 }
 
+/* =========================
+   CARRUSEL REVIEWS
+========================= */
+
+@keyframes reviewsScroll{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+.reviews-carousel:hover .reviews-track{
+
+    animation-play-state:paused;
+
+}
+
+/* =========================
+   MÓVIL
+========================= */
+
+@media (max-width:1023px){
+
+    .reviews-track{
+
+        animation:none;
+
+        width:auto;
+
+    }
+
+    .reviews-carousel{
+
+        overflow-x:auto;
+
+        scroll-snap-type:x mandatory;
+
+        -webkit-overflow-scrolling:touch;
+
+    }
+
+    .review-link{
+
+        scroll-snap-align:start;
+
+    }
+
+    .reviews-carousel::-webkit-scrollbar{
+
+        display:none;
+
+    }
+
+}
