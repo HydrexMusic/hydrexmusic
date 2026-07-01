@@ -922,6 +922,22 @@ document.querySelectorAll(".fade-section").forEach(section =>{
     observer.observe(section);
 
 });
+
+/* =========================
+   DUPLICAR RESEÑAS SOLO EN ESCRITORIO
+========================= */
+
+if (window.innerWidth > 1024) {
+
+    const track = document.querySelector(".reviews-track");
+
+    if (track) {
+
+        track.innerHTML += track.innerHTML;
+
+    }
+
+}
     
 </script>
 </body>
