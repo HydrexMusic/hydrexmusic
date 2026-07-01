@@ -1516,3 +1516,99 @@ box-shadow:
     }
 
 }
+
+/*==============================
+        CLUB VALUES
+==============================*/
+
+.club-values{
+
+    padding:110px 10%;
+
+}
+
+.club-values-content{
+
+    display:grid;
+
+    grid-template-columns:1fr 500px;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.club-values-image img{
+
+    width:100%;
+
+    border-radius:24px;
+
+    display:block;
+
+}
+
+.club-values-text h2{
+
+    margin-bottom:30px;
+
+}
+
+.club-values-text p{
+
+    color:#d8d8d8;
+
+    line-height:1.9;
+
+    margin-bottom:22px;
+
+}
+
+.club-features{
+
+    margin-top:45px;
+
+    display:grid;
+
+    gap:18px;
+
+}
+
+.club-feature{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:16px;
+
+}
+
+.club-feature span{
+
+    color:#FE5F2F;
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    margin-top:2px;
+
+}
+
+.club-feature p{
+
+    margin:0;
+
+}
+
+@media(max-width:900px){
+
+    .club-values-content{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
