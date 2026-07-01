@@ -1612,3 +1612,39 @@ box-shadow:
     }
 
 }
+
+/*==============================
+        CLUB CTA
+==============================*/
+
+.club-cta{
+
+    padding:120px 10%;
+
+    text-align:center;
+
+}
+
+.club-cta p{
+
+    max-width:720px;
+
+    margin:25px auto 40px;
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.club-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
