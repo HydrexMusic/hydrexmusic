@@ -1092,6 +1092,18 @@ transform:translateY(0);
 
 }
 
+.review-link{
+
+    text-decoration:none;
+
+    color:inherit;
+
+    display:block;
+
+    flex-shrink:0;
+
+}
+
 .review-card{
 
     width:340px;
