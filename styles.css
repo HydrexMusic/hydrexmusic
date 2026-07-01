@@ -1361,3 +1361,134 @@ box-shadow:
 
 }
 
+/* ===========================
+   CLUB MOMENTS
+=========================== */
+
+.club-moments{
+
+    padding:100px 10%;
+
+}
+
+.club-title{
+
+    max-width:850px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.club-title p{
+
+    margin-top:18px;
+
+    color:#bdbdbd;
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+}
+
+.club-moments-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.club-card{
+
+    position:relative;
+
+    padding:42px;
+
+    border-radius:24px;
+
+    background:linear-gradient(
+        180deg,
+        rgba(28,28,28,.95),
+        rgba(14,14,14,.98)
+    );
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s ease;
+
+    overflow:hidden;
+
+}
+
+.club-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(254,95,47,.45);
+
+    box-shadow:0 20px 45px rgba(254,95,47,.12);
+
+}
+
+.club-badge{
+
+    display:inline-block;
+
+    padding:8px 16px;
+
+    margin-bottom:24px;
+
+    border-radius:999px;
+
+    background:rgba(254,95,47,.12);
+
+    border:1px solid rgba(254,95,47,.35);
+
+    color:#FE5F2F;
+
+    font-size:.78rem;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.club-card h3{
+
+    font-size:1.8rem;
+
+    margin-bottom:22px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.club-card p{
+
+    color:#d8d8d8;
+
+    line-height:1.85;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+@media(max-width:900px){
+
+    .club-moments-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
