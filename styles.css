@@ -1076,9 +1076,9 @@ transform:translateY(0);
 
 .review-card{
 
-    width:380px;
+    width:340px;
 
-    min-height:240px;
+    min-height:220px;
 
     flex-shrink:0;
 
