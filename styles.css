@@ -1429,37 +1429,39 @@ box-shadow:
 
 }
 
-.journey-step{
+..journey-step{
 
-    position:relative;
+    background:linear-gradient(180deg,#151515,#0b0b0b);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:40px 30px;
+    transition:.35s;
 
-    text-align:center;
+}
 
-    padding-top:20px;
+.journey-step:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(254,95,47,.45);
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.45);
 
 }
 
 .club-badge{
 
     display:inline-block;
-
-    padding:8px 18px;
-
+    padding:10px 22px;
     border-radius:999px;
-
-    background:rgba(254,95,47,.12);
-
-    border:1px solid rgba(254,95,47,.35);
-
+    background:rgba(254,95,47,.10);
     color:#FE5F2F;
-
-    font-size:.78rem;
-
-    font-weight:700;
-
+    border:1px solid rgba(254,95,47,.35);
+    font-size:.8rem;
     letter-spacing:2px;
-
-    margin-bottom:28px;
+    font-weight:700;
+    margin-bottom:25px;
 
 }
 
@@ -1485,16 +1487,14 @@ box-shadow:
 
 .journey-step h3{
 
-    font-size:1.65rem;
-
     margin-bottom:18px;
+    font-size:1.7rem;
 
 }
 
 .journey-step p{
 
     color:#d5d5d5;
-
     line-height:1.8;
 
 }
